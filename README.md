@@ -1,10 +1,10 @@
-# covex
+# CoVEx = Chronos + copy Variation + Expression database
 
 # Running Application Depolyment
-### ShinyServer (Shinyapps.io)
-### AWS workspace (http://3.93.125.130/shinyapps/apps/covex/app/)
-### Github ( http://github.com/saurabhwhadgar/covex)
-### Docker ()
+### ShinyServer https://saurabhwhadgar.shinyapps.io/covex/
+### AWS workspace http://3.93.125.130/shinyapps/apps/covex/app/
+### Github http://github.com/saurabhwhadgar/covex
+### Docker https://hub.docker.com/repository/docker/saurabhwhadgar/covex
 # Running Application Locally
 ## Applicaiton Dependancies
 
