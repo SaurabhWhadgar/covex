@@ -3,9 +3,13 @@
 # Running Application Depolyment
 ### ShinyServer https://saurabhwhadgar.shinyapps.io/covex/
 ### AWS workspace http://3.93.125.130/shinyapps/apps/covex/app/
-### Github http://github.com/saurabhwhadgar/covex
+### Github https://github.com/SaurabhWhadgar/covex
 ### Docker https://hub.docker.com/repository/docker/saurabhwhadgar/covex
 # Running Application Locally
+
+### Understanding CoVEx UI
+Visit -> https://docs.google.com/presentation/d/1Bysdji-_bBaLtmxPrcJfWaufW6Uuzfbyyq1u0O3d3nI/edit#slide=id.p
+
 ## Applicaiton Dependancies
 
 |   |package_name           | Version|
@@ -42,5 +46,3 @@ But for this tutorial will be using simple RStudio IDE way.
 3. Select Run External option so it will open in your system's default browser.
 ![](https://www.garrickadenbuie.com/blog/shiny-tip-option-where-to-run/shiny-rstudio-run-in.png)
 
-## Understanding CoVEx UI
-Visit -> https://docs.google.com/presentation/d/1Bysdji-_bBaLtmxPrcJfWaufW6Uuzfbyyq1u0O3d3nI/edit#slide=id.p
