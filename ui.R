@@ -85,7 +85,8 @@ ui <- dashboardPage(
           ),
       fluidRow(
         box(plotlyOutput("plotOne"),width = 12),
-        box(DT::dataTableOutput("plotOneTable"), width = 12)
+        box(DT::dataTableOutput("plotOneTable"), width = 12),
+        box(title = "Filtering of database",solidHeader = TRUE,plotlyOutput("filterdDataPlot"), width=12)
       )
     ),
       tabItem(

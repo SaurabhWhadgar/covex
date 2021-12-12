@@ -174,5 +174,19 @@ filteredTable <- eventReactive(input$searchbutton,{
   p2 <- ggMarginal(p2, type = "density", groupColour = TRUE, groupFill = TRUE)
   p2
   })
+  
+  ### addtional filter
+  filtered_table <- reactive({
+    req(input$plotOneTable_rows_all)
+    filteredTable()[input$plotOneTable_rows_all, ]  
+  })
+  
+  output$filterdDataPlot <-  renderPlotly({
+    b <- ggplot(filtered_table(), aes_string(x = "fvalues", y = "svalue", colour= input$colorInput)) +
+      geom_vline(xintercept = 0) + geom_vline(xintercept = 0) + geom_point() + theme_minimal()
+    ggplotly(b)
+  })
+  
+  
 
 }
